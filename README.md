@@ -1,6 +1,5 @@
 # Domain-Generalized Neural Architecture Search(DGNAS)
-This is the official Implementation of manuscript  
-"Unleashing the Potential of Large Generative Models for Generalized Neural Architecture Search to Unseen Domains"
+This is the official Implementation of our paper titled "Towards Domain Generalized Neural Architecture Search via Language-Guided Visual Augmentation", which has been accepted for publication in Proceedings of the 34th ACM International Conference on Multimedia(MM 2026)! 
 
 1. Create a conda environment and install packages using the command below:
 
