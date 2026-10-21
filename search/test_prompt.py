@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 import json
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="sk-xxx")
 system_content = "You are an expert in the field of neural architecture search."
 with open("search/search_prompt.json", "r") as f:
     search_prompt = json.loads(f.read())
