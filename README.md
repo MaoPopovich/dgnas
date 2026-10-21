@@ -10,10 +10,10 @@
 
 **Official PyTorch implementation of DGNAS (ACM Multimedia 2026)**
 
-[**Qinghua Mao**](https://github.com/MaoPopovich)$^1$ \*, [**Xi Lin**]()$^{1,\dagger}$, [**Zhongze Wu**]()$^2$, [**Jun Wu**]()$^1$, [**Xiangrui Cai**]()$^3$, [**Xiu Su**]()$^2$
+**Qinghua Mao**<sup>1</sup>, **Xi Lin**<sup>1,&dagger;</sup>, **Zhongze Wu**<sup>2</sup>, **Jun Wu**<sup>1</sup>, **Xiangrui Cai**<sup>3</sup>, **Xiu Su**<sup>2</sup>
 
-$^1$Shanghai Jiao Tong University &nbsp;&nbsp;|&nbsp;&nbsp; $^2$Central South University &nbsp;&nbsp;|&nbsp;&nbsp; $^3$Nankai University  
-$^\dagger$Corresponding author: `linxi234@sjtu.edu.cn`
+<sup>1</sup>Shanghai Jiao Tong University &nbsp;&nbsp;|&nbsp;&nbsp; <sup>2</sup>Central South University &nbsp;&nbsp;|&nbsp;&nbsp; <sup>3</sup>Nankai University  
+<sup>&dagger;</sup>Corresponding author: `linxi234@sjtu.edu.cn`
 
 [📖 Paper (Coming Soon)](#citation) &nbsp; | &nbsp; [🖼️ Framework](#overview) &nbsp; | &nbsp; [📊 SOTA Results](#main-results) &nbsp; | &nbsp; [🚀 Quick Start](#getting-started) &nbsp; | &nbsp; [📚 Citation](#citation)
 
@@ -35,11 +35,6 @@ Conventional Neural Architecture Search (NAS) relies on the in-distribution (I.I
 1. **Language-Guided Visual Augmentation**: Synthesizes realistic OoD domains in the joint vision-language space (CLIP) using verbal descriptions alone, optimizing both Directional Adaptation ($\mathcal{L}_{\text{DA}}$) and Semantic Consistency ($\mathcal{L}_{\text{SC}}$).
 2. **LLM-Driven Architecture Navigation**: Leverages an LLM reasoning agent equipped with Domain-Aware NAS Prompts (DNP) and Pareto memory to actively propose optimal subnets in **only 10 rounds**.
 3. **Meta Adaptation Fine-Tuning**: Employs bi-level gradient adaptation across source and synthesized auxiliary domains to ensure swift generalization to unseen domains.
-
-<div align="center">
-  <img src="figure/framework.pdf" width="95%" alt="DGNAS Framework">
-  <p><em>Figure 1: Overview of the DGNAS framework. (a) The "Augment first, search and fine-tune" paradigm. (b) Detailed pipeline of language-guided visual augmentation and LLM-driven architecture search.</em></p>
-</div>
 
 ---
 
