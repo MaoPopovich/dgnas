@@ -34,11 +34,6 @@ Conventional Neural Architecture Search (NAS) relies on the in-distribution (I.I
 2. **LLM-Driven Architecture Navigation**: Leverages an LLM reasoning agent equipped with Domain-Aware NAS Prompts (DNP) and Pareto memory to actively propose optimal subnets in **only 10 rounds**.
 3. **Meta Adaptation Fine-Tuning**: Employs bi-level gradient adaptation across source and synthesized auxiliary domains to ensure swift generalization to unseen domains.
 
-<div align="center">
-  <img src="figure/framework.pdf" width="95%" alt="DGNAS Framework">
-  <p><em>Figure 1: Overview of the DGNAS framework. (a) The "Augment first, search and fine-tune" paradigm. (b) Detailed pipeline of language-guided visual augmentation and LLM-driven architecture search.</em></p>
-</div>
-
 ---
 
 ## 🏆 Main Results
